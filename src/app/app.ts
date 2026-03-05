@@ -4,7 +4,7 @@ import { HelloWorldComponent } from './helloworld/helloworld.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HelloWorldComponent],
+  imports: [HelloWorldComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
