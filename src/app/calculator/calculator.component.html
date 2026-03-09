@@ -8,11 +8,11 @@
             <label for="number02">Número 2</label>
             <input type="number" name="number02" id="number02" />
 
-            <button type="submit">Somar</button>
+            <button type="button" (click)="ResultCalc()">Somar</button>
         </form>
 
         <div class="result-display">
-            <p>Resultado: <span id="result">Valor</span></p>
+            <p>Resultado: <span id="result">{{ result }}</span></p>
         </div>
     </div>
 </div>
