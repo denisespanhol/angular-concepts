@@ -31,5 +31,8 @@ export class ShopList {
     itemList.itsPurchased = !itemList.itsPurchased;
   }
 
+  clearList() {
+    this.list = [];
+  }
 
 }

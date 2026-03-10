@@ -4,6 +4,8 @@
     <form class="add-item-form" #shopListForm="ngForm" (ngSubmit)="addItemToList()">
         <input type="text" id="item" placeholder="Digite o nome do item" [(ngModel)]="newItem" name="item"/>
         <button type="submit">Adicionar</button>
+
+        <button type="button" (click)="clearList()">Limpar Lista</button>
     </form>
 
     <table>
