@@ -15,7 +15,7 @@ export class ShopList {
 
   addItemToList() {
     if (!this.newItem) return;
-    
+
     let itemList = new ItemList();
     itemList.name = this.newItem;
     itemList.id = this.list.length + 1;
@@ -26,4 +26,10 @@ export class ShopList {
 
     console.table(this.list);
   }
+
+  riskItem(itemList: ItemList) {
+    itemList.itsPurchased = !itemList.itsPurchased;
+  }
+
+
 }
