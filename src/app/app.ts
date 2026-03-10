@@ -4,7 +4,7 @@ import { ShopList } from './shop-list/shop-list.component';
 
 @Component({
   selector: 'app-root',
-  imports: [ShopList],
+  imports: [ ShopList ],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
